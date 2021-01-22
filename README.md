@@ -3,18 +3,18 @@ tweepyを用いたtwitterの自動フォロー・いいね・RT
 
 各種データは用途に合わせて使用
 
-account_id   = result.user.screen_name
+account_id：アカウントのID
 
-account_name = result.user.name
+account_name：アカウント名
 
-result_text  = result.text
+result_text：検索したツイートの内容
 
-tweet_id     = result.id
+tweet_id：検索したツイートのID
 
-official_flag = result.user.verified
+official_flag：公式かどうか
 
-result_follows   = result.user.friends_count
+result_follows：フォロー数
 
-result_followers = result.user.followers_count
+result_followers：フォロワー数
 
 
