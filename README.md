@@ -2,6 +2,7 @@
 tweepyを用いたtwitterの自動フォロー・いいね・RT
 
 各種データは用途に合わせて使用
+
 account_id   = result.user.screen_name
 
 account_name = result.user.name
